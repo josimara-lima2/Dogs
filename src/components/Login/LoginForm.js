@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { BaseUrl } from '../../url'
+import Input from '../Forms/Input'
 
 const LoginForm = () => {
   const [username, setUsername] = React.useState('') 
@@ -22,6 +23,7 @@ const LoginForm = () => {
     <section>
       <h1>Login</h1>
       <form  onSubmit={handleSubmit}>
+        <Input label="usuário" />
         <input 
           type="text" 
           value={username}
