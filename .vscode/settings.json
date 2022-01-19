@@ -6,5 +6,8 @@
     "package.json": true,
     "package-lock.json": true,
     "public": true
-  }
+  },
+  "cSpell.words": [
+    "Estatisticas"
+  ]
 }
