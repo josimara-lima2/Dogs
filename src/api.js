@@ -108,3 +108,12 @@ export function PHOTO_DELETE(id) {
     },
   };
 }
+
+export function PHOTO_ITEM_GET(id) {
+  return {
+    url: `${API_URL}api/photo/${id}`,
+    options: {
+      method: "GET",
+    },
+  };
+}
